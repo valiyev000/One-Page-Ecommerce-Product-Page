@@ -1,0 +1,639 @@
+@media only screen and (max-width: 576px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    div#for-desktop {
+        display: none;
+    }
+
+    div#for-mobile {
+        display: block;
+    }
+
+    #for-mobile header {
+        position: fixed;
+        width: 100%;
+        height: 57px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 18px;
+        z-index: 20;
+    }
+
+    #for-mobile header #header-left {
+        display: flex;
+        gap: 23px;
+    }
+
+    #for-mobile header #header-left img{
+        cursor: pointer;
+    }
+
+    #for-mobile header #header-right {
+        display: flex;
+        gap: 22px;
+    }
+
+    #for-mobile header #header-right img{
+        cursor: pointer;
+    }
+
+    #for-mobile nav {
+        padding: 62px 10px 0 10px;
+        background-color: transparent;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 14px;
+        color: #2D2D2D;
+        text-align: center;
+    }
+
+    #for-mobile main {
+        padding: 0 15px;
+        background-color: white;
+    }
+
+    #for-mobile main #product-id-box {
+        margin: 15px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #for-mobile main #product-id-box #product-id-box-left-side {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        color: #2D2D2D;
+    }
+
+    #for-mobile main #product-id-box #product-id-box-right-side {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+
+    #for-mobile main #product-id-box #product-id-box-right-side>div {
+        width: 36px;
+        height: 36px;
+        background: #F6F6F6;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #for-mobile main #product-image-box {
+        height: 345px;
+        width: 100%;
+        border: 1px solid #EDEDED;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    #for-mobile main #product-image-box img:nth-child(1){
+        cursor: pointer;
+    }
+
+    #for-mobile main #product-image-box img:nth-child(2){
+        position: absolute;
+        top: 29px;
+        left: 20px;
+        cursor: pointer;
+    }
+    
+    #for-mobile main #product-image-box img:nth-child(3){
+        position: absolute;
+        top: 80px;
+        left: 20px;
+        cursor: pointer;
+    }
+    
+    #for-mobile main #product-image-box img:nth-child(4){
+        position: absolute;
+        bottom: 15px;
+        left: 144px;
+    }
+    
+    #for-mobile main #product-image-box img:nth-child(5){
+        position: absolute;
+        bottom: 15px;
+        left: 161px;
+    }
+
+    #for-mobile main #product-image-box img:nth-child(6){
+        position: absolute;
+        bottom: 15px;
+        left: 178px;
+    }
+
+    #for-mobile main #product-image-box img:nth-child(7){
+        position: absolute;
+        bottom: 15px;
+        left: 195px;
+    }
+
+    #for-mobile main #product-image-box div{
+        width: 51px;
+        height: 27px;
+        background: #4CC214;
+        border-radius: 0px 4px 4px 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    #for-mobile main #product-name{
+        margin: 15px 0;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: #2D2D2D;
+    }
+
+    #for-mobile main #options-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #for-mobile main #options-box #option-box-left-side{
+        width: 47%;
+        height: 62px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #for-mobile main #options-box #option-box-left-side :nth-child(1){
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #2D2D2D;
+    }
+
+    #for-mobile main #options-box #option-box-left-side select{
+        width: 100%;
+        height: 33px;
+        padding: 6px 5%;
+        background: #FFFFFF;
+        border: 1px solid #EDEDED;
+        border-radius: 4px;
+        outline: none;
+        cursor: pointer;
+    }
+
+    #for-mobile main #options-box #option-box-right-side{
+        width: 47%;
+        height: 62px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #for-mobile main #options-box #option-box-right-side :nth-child(1){
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #2D2D2D;
+    }
+
+    #for-mobile main #options-box #option-box-right-side select{
+        width: 100%;
+        height: 33px;
+        padding: 6px 5%;
+        background: #FFFFFF;
+        border: 1px solid #EDEDED;
+        border-radius: 4px;
+        outline: none;
+        cursor: pointer;
+    }
+
+    #for-mobile main #price-box-section{
+        padding: 15px;
+        height: 202px;
+        width: 100%;
+        background: #2D2D2D;
+        border: 1px solid #F6F6F6;
+        border-radius: 4px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    
+    #for-mobile main #price-box-section #price-and-terms{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    #for-mobile main #price-box-section #price-and-terms .price-and-terms-sides{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 49%;
+    }
+
+    #for-mobile main #price-box-section #price-and-terms .price-and-terms-sides .price-and-terms-sides-headers{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+
+    #for-mobile main #price-box-section #price-and-terms .price-and-terms-sides .price-and-terms-sides-main{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+
+    #for-mobile main #price-box-section>button{
+        height: 51px;
+        width: 100%;
+        background: #F58634;
+        border-radius: 4px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+        border: none;
+        transition: 0.3s all ease-in-out;
+    }
+
+    #for-mobile main #price-box-section>button:hover{
+        background: #FFFFFF;
+        color: #F58634;
+    }
+
+    #for-mobile main #price-box-section #other-buttons{
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #for-mobile main #price-box-section #other-buttons .action{
+        width: 48%;
+        height: 51px;
+        background: #FFFFFF;
+        border-radius: 4px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        border: none;
+        color: #2D2D2D;
+        transition: 0.3s all ease-in-out;
+    }
+
+    #for-mobile main #price-box-section #other-buttons .action:hover{
+        background-color: #2D2D2D;
+        color: #fff;
+    }
+
+    #for-mobile main #phone-specs{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        height: 198px;
+        background: #FFFFFF;
+        border: 1px solid #EDEDED;
+        border-radius: 4px;
+        position: relative;
+    }
+
+    #for-mobile main #phone-specs #phone-specs-header{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 132.69%;
+        color: #2D2D2D;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    
+    #for-mobile main #phone-specs hr{
+        border: 1px solid #F6F6F6;
+    }
+
+    #for-mobile main #phone-specs table{
+        height: 110px;
+        margin: 0 15px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 132.69%;
+        color: #2D2D2D;
+    }
+
+    #for-mobile main #phone-specs #linear-gradient{
+        position: absolute;
+        width: 100%;
+        height: 196px;
+        top: 0;
+        left: 0;
+        background: linear-gradient(180deg, rgba(131,58,180,0) 0%, rgba(255,255,255,1) 100%);
+    }
+
+    #for-mobile main #phone-specs #see-all{
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+        cursor: pointer;
+        user-select: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 166.69%;
+        color: #2D2D2D;
+    }
+
+    #for-mobile main #rating-of-product{
+        width: 100%;
+        /* height: 687px; */
+        background: #FFFFFF;
+        border: 1px solid #EDEDED;
+        border-radius: 4px;
+        margin-top: 15px;
+    }
+
+    #for-mobile main #rating-of-product #rating-header-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+    }
+
+    #for-mobile main #rating-of-product #rating-header-box h5{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #2D2D2D;
+    }
+
+    #for-mobile main #rating-of-product #rating-header-box>div>span{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: #2D2D2D;
+    }
+
+    #for-mobile main #rating-of-product hr{
+        border: 1px solid #F6F6F6;
+    }
+
+    #for-mobile main #rating-of-product .reviews{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px;
+        position: relative;
+    }
+
+    #for-mobile main #rating-of-product .reviews .review-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #for-mobile main #rating-of-product .reviews .review-top .review-owner-name{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 170%;
+        color: #000000;
+    }
+
+    #for-mobile main #rating-of-product .reviews .review-bottom{
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 24px;
+        color: #2D2D2D;
+    }
+
+    #for-mobile main #rating-of-product .reviews .review-date{
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 170%;
+        color: #A4A4A4;
+    }
+
+    #for-mobile main #rating-of-product .reviews #transparent-div-in-review{
+        position: absolute;
+        width: 100%;
+        height: 195px;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(180deg, rgba(131,58,180,0) 0%, rgba(255,255,255,1) 100%);
+    }
+
+    #for-mobile main #rating-of-product .reviews #load-more-in-review{
+        position: absolute;
+        left: 15px;
+        bottom: 15px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 166.69%;
+        color: #2D2D2D;
+        user-select: none;
+        cursor: pointer;
+    }
+
+    #for-mobile main #rating-of-product #comment-box{
+        padding: 26px 15px 15px 15px;
+    }
+
+    #for-mobile main #rating-of-product #comment-box #comment-box-empty-blanks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    #for-mobile main #rating-of-product #comment-box #comment-box-empty-blanks>input{
+        width: 100%;
+        height: 51px;
+        background: #FFFFFF;
+        border: 1px solid #EDEDED;
+        border-radius: 4px;
+        padding: 16px 20px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        transition: 0.4s all ease-in-out;
+    }
+
+    #for-mobile main #rating-of-product #comment-box #comment-box-empty-blanks>input:focus{
+        outline: 2px solid #F58634;
+    }
+
+    #for-mobile main #rating-of-product #comment-box #comment-box-empty-blanks>input::placeholder{
+        color: #C7C7C7;
+    }
+
+    #for-mobile main #rating-of-product #comment-box #comment-box-empty-blanks>textarea{
+        width: 100%;
+        padding: 16px 20px;
+        background: #FFFFFF;
+        border: 1px solid #EDEDED;
+        border-radius: 4px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        resize: none;
+        transition: 0.4s all ease-in-out;
+    }
+
+    #for-mobile main #rating-of-product #comment-box #comment-box-empty-blanks>textarea:focus{
+        outline: 2px solid #F58634;
+    }
+
+    #for-mobile main #rating-of-product #comment-box #comment-box-empty-blanks>textarea::placeholder{
+        color: #C7C7C7;
+    }
+
+    #for-mobile main #rating-of-product #comment-box #comment-box-submit{
+        padding-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #for-mobile main #rating-of-product #comment-box #comment-box-submit #rating-stars{
+        display: flex;
+        gap: 9.44px;
+    }
+
+    #for-mobile main #rating-of-product #comment-box #comment-box-submit #rating-stars img{
+        width: 21px;
+        height: 21px;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    #for-mobile main #rating-of-product #comment-box #comment-box-submit button{
+        width: 47%;
+        height: 51px;
+        background: #F58634;
+        border-radius: 4px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+        transition: 0.4s all ease-in-out;
+    }
+
+    #for-mobile main #rating-of-product #comment-box #comment-box-submit button:hover{
+        background: #fff;
+        color: #F58634;
+    }
+
+    #for-mobile footer{
+        margin-top: 72px;
+        width: 100%;
+        height: 117px;
+        padding: 12px 15px 15px 15px;
+        background: #2D2D2D;
+        border-radius: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #for-mobile footer #price-and-terms{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #for-mobile footer #price-and-terms .price-and-terms-sides{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 49%;
+    }
+
+    #for-mobile footer #price-and-terms .price-and-terms-sides .price-and-terms-sides-headers{
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+
+    #for-mobile footer #price-and-terms .price-and-terms-sides .price-and-terms-sides-main{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+
+    #for-mobile footer #other-buttons{
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #for-mobile footer #other-buttons .action{
+        padding: 7px 20px;
+        width: 28%;
+        height: 45px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #2D2D2D;
+    }
+
+    #for-mobile footer #other-buttons #add-to-basket{
+        width: 41%;
+        height: 45px;
+        background: #F58634;
+        border-radius: 4px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        cursor: pointer;
+        user-select: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
